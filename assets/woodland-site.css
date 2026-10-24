@@ -1,0 +1,11 @@
+/* One woodland scene for the content after the original home hero. */
+.original-content{position:relative;isolation:isolate}
+.woodland-background{position:fixed;inset:56px 0 0;z-index:-1;overflow:hidden;pointer-events:none;background:radial-gradient(ellipse at 50% 43%,#1d3d2380,transparent 64%),#081910}
+.woodland-background::before,.woodland-background::after{content:"";position:absolute;inset:0;pointer-events:none}
+.woodland-background::before{background:linear-gradient(180deg,#07120d88,#091b1377 50%,#07170fe6),url('../images/hero-animals.webp') center 48%/cover no-repeat;opacity:.25}
+.woodland-background::after{background:url('../images/download-forest.svg') center bottom/cover no-repeat;opacity:.95}
+.original-content [data-woodland-surface]{background:transparent!important}
+.original-content [data-legacy-scenery]{display:none!important}
+.original-content #download.home-download-section::before,.original-content #download.home-download-section::after{display:none}
+@media(max-width:760px){.woodland-background::after{background-position:16% bottom}}
+@media print{.woodland-background{display:none}}

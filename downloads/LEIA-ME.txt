@@ -1,0 +1,8 @@
+Downloads do Animora Kingdom
+
+Coloque seu arquivo do mod nesta pasta com o nome exato:
+animora-kingdom.jar
+
+Os quatro botões de download do pacote usam esse arquivo local.
+Quando quiser atualizar o mod, substitua o arquivo mantendo esse nome.
+O pacote do mod ainda não está incluído: você irá adicioná-lo depois.

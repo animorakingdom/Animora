@@ -1,0 +1,33 @@
+Animora Kingdom
+
+Site estático com quatro páginas e interações principais locais. O cachorro 3D usa o visualizador externo do Sketchfab.
+
+Para abrir: clique em index.html. Para hospedar, publique o conteúdo desta pasta em um servidor de arquivos estáticos.
+
+Páginas:
+- index.html: apresentação, recursos, download, vídeo, os 24 mods completos e comunidade.
+- mods/index.html: catálogo com os filtros da versão original.
+- fabric/index.html: preparação do Fabric.
+- install/index.html: instalação e cópia do caminho de mods.
+
+Na página inicial, o vídeo aparece diretamente abaixo do bloco de download e antes da lista de mods, como na primeira versão. Ele tem controles e só reproduz depois de apertar Play. O atalho Tutorial (4) da hotbar abre install/index.html, a mesma página do botão How to install. A hotbar acompanha a seção visível e aceita os atalhos 1 a 6 fora de campos de texto.
+
+Os quatro botões do pacote apontam para downloads/animora-kingdom.jar e baixam esse arquivo local. Coloque seu mod nessa pasta com o nome exato animora-kingdom.jar; você irá adicioná-lo depois. Para atualizar, substitua o arquivo mantendo o mesmo nome. Os créditos e nomes dos 24 mods de terceiros foram preservados.
+
+Domínio previsto: animorakingdom.com. A criação deste site não registra o domínio nem publica arquivos na internet.
+
+Arquivos herdados do clone são mantidos como reserva. As quatro páginas voltaram a usar os blocos originais e seus estilos em assets/clone-original.css, com a navegação adicional em assets/original-shell.css e assets/site.js. As bases de estilo permanecem em assets/site.css e assets/theme.css. A tela inicial também usa assets/husky.css e assets/husky.js.
+
+O cachorro 3D original foi restaurado na coluna direita da tela inicial. O visualizador usa o modelo Husky do Sketchfab e precisa de conexão à internet. As artes da marca, os ícones dos mods e o vídeo continuam locais.
+
+Todas as páginas mantêm a composição e o conteúdo da referência original, em inglês, com a marca substituída por Animora Kingdom. A instalação usa o livro na introdução e a linha pontilhada com os quatro passos. Fabric, catálogo de mods, benefícios, download e rodapé também usam seus blocos originais. A descrição adicional MINECRAFT · FABRIC foi removida dos cabeçalhos. O cenário cobre toda a largura, inclusive atrás da hotbar. A transparência do cachorro foi ajustada para combinar corretamente com o cenário mesmo no tema escuro do navegador.
+
+O cachorro aparece de imediato por uma imagem PNG local e transparente do próprio modelo. O 3D carrega por trás e assume quando estiver pronto; se a conexão externa falhar, a imagem permanece. Não há mensagem de carregamento na tela.
+
+A seção Download ocupa sua própria área de tela e tem um card maior; o vídeo vem depois. A seção Mods da home mostra diretamente todos os 24 cards com links para os mods.
+
+A área de download usa cenário de floresta, grade de blocos e detalhes verdes, com acesso ao guia de instalação. A home inclui os seis filtros de categoria originais acima dos 24 mods.
+
+O mesmo cenário de floresta e blocos aparece em todas as seções depois da abertura e nas páginas de Mods, Fabric e instalação. A abertura original fica preservada. O fundo é uma camada fixa, com os cards e o vídeo por cima.
+
+O menu do canto superior direito foi removido das quatro páginas. A navegação continua pela hotbar e pelos botões do conteúdo.
