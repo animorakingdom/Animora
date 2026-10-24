@@ -1,0 +1,24 @@
+/* Woodland and block details shared with the site's original green palette. */
+.original-content #download.home-download-section{position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse at 50% 43%,#1d3d2380,transparent 64%),#081910;border-top:1px solid #60814830;border-bottom:1px solid #60814830}
+#download.home-download-section::before,#download.home-download-section::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:-1}
+#download.home-download-section::before{background:linear-gradient(180deg,#07120d88,#091b1377 50%,#07170fe6),url('../images/hero-animals.webp') center 48%/cover no-repeat;opacity:.25}
+#download.home-download-section::after{background:url('../images/download-forest.svg') center bottom/cover no-repeat;opacity:.95}
+.home-download-inner{position:relative;z-index:1}
+.download-kicker{display:flex;align-items:center;justify-content:center;gap:15px;margin:0 0 28px;color:#b6ca9e;font-size:10px;font-weight:700;line-height:1.8;letter-spacing:2.5px;text-align:center}
+.download-kicker::before,.download-kicker::after{content:"";width:5px;height:5px;flex:none;background:#8fbe62;box-shadow:5px 5px #415f32,0 0 15px #9bca6250}
+.original-content .home-download-card{isolation:isolate;border-color:#598d3d;background:linear-gradient(90deg,#bbd88c05 1px,transparent 1px) 0 0/32px 32px,linear-gradient(#bbd88c05 1px,transparent 1px) 0 0/32px 32px,linear-gradient(125deg,#1b381df5,#0c2013f5 55%,#0a190ff5);box-shadow:0 24px 70px #0005,inset 0 1px #b8e28c14}
+.home-download-card::before{content:"";position:absolute;inset:13px;pointer-events:none;opacity:.6;background:linear-gradient(#96c66b,#96c66b) left top/18px 2px no-repeat,linear-gradient(#96c66b,#96c66b) left top/2px 18px no-repeat,linear-gradient(#96c66b,#96c66b) right top/18px 2px no-repeat,linear-gradient(#96c66b,#96c66b) right top/2px 18px no-repeat,linear-gradient(#96c66b,#96c66b) left bottom/18px 2px no-repeat,linear-gradient(#96c66b,#96c66b) left bottom/2px 18px no-repeat,linear-gradient(#96c66b,#96c66b) right bottom/18px 2px no-repeat,linear-gradient(#96c66b,#96c66b) right bottom/2px 18px no-repeat}
+.home-download-card::after{content:"";position:absolute;width:180px;height:180px;right:-106px;bottom:-90px;border:1px solid #a4ca6c1c;box-shadow:0 0 0 22px #a4ca6c06;transform:rotate(45deg);pointer-events:none;z-index:-1}
+.home-download-info,.home-download-action{position:relative;z-index:1}
+.home-download-icon{border:1px solid #91bd5c30;box-shadow:inset 2px 2px #b3d2810a,0 8px 24px #0002}
+.download-help{display:flex;align-items:center;justify-content:center;gap:9px;width:fit-content;max-width:100%;margin:27px auto 0;color:#b5c3a8;font-size:12px;line-height:1.8;text-align:center;text-underline-offset:4px;transition:color .2s}
+.download-help svg{width:17px;height:17px;flex:none;color:#8fbe62}
+.download-help:hover{color:#d2e8bb;text-decoration:underline}
+@media(max-width:760px){
+ #download.home-download-section::after{background-position:16% bottom}
+ .download-kicker{gap:10px;margin-bottom:22px;font-size:9px;letter-spacing:1.4px}
+ .download-help{font-size:11px;margin-top:22px;align-items:flex-start}
+ .download-help svg{margin-top:2px}
+ .home-download-card::before{inset:10px}
+}
+@media(prefers-reduced-motion:reduce){.download-help{transition:none}}
